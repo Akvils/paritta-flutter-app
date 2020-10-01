@@ -1,0 +1,49 @@
+name: paritta
+description: Paritta sutras for protection.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  flutter_bloc: ^2.1.1
+  audioplayers: ^0.15.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.jpg
+    - assets/0ParittaParikammaPali.mp3
+    - assets/1MangalaSuttaPali.mp3
+    - assets/2RatanaSuttaPali.mp3
+    - assets/3MettaSuttaPali.mp3
+    - assets/4KhandaSuttaPali.mp3
+    - assets/5MoraSuttaPali.mp3
+    - assets/6VattaSuttaPali.mp3
+    - assets/7DhajaggaSuttaPali.mp3
+    - assets/8AtanatiyaSuttaPali.mp3
+    - assets/9AngulimalaSuttaPali.mp3
+    - assets/10BojjhangaSuttaPali.mp3
+    - assets/11PubbanhaSuttaPali.mp3
+
+  fonts:
+    - family: NotoSerif
+      fonts:
+        - asset: fonts/NotoSerif.ttf
+
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat.ttf
